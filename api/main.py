@@ -2,8 +2,10 @@ from fastapi import FastAPI
 import tensorflow as tf
 import uvicorn
 import os
+from pydantic import BaseModel
 
-from responses import NewsItem
+class NewsItem(BaseModel):
+    text: str
 
 app = FastAPI(name="Fake News Detection API")
 
