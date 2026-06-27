@@ -2,6 +2,8 @@
 
 A deep learning-based Fake News Detection application built using **TensorFlow**, **FastAPI**, and **Streamlit**. The model leverages **Natural Language Processing (NLP)** techniques with **TextVectorization** and an **LSTM (Long Short-Term Memory)** network to classify news articles as **Real** or **Fake**.
 
+Note: I wasn't able to get any server hosting service for free which can handle my model loading with all those parameters thats why there is only a local hosting option here!
+
 ---
 
 # 📌 Motivation
